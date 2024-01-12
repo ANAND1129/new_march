@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/standard1" element={<Standard1 />} />
-        <Route path="/standard2" element={<Standard2 />} />
+        <Route path="/standard2" element={<Standard2 />} />   
         <Route path="/" element={<Whole/>}/>
       </Routes>
     </Router>

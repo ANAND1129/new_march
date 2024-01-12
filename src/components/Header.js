@@ -7,10 +7,11 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   //   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  //to comit code
   const [activeComponent, setActiveComponent] = useState("Men");
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
-  const openDrawer = () => {
+  const openDrawer = () => {  
     setIsDrawerOpen(true);
   };
   const closeDrawer = () => {
